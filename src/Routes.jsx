@@ -6,7 +6,7 @@ import Event from "./components/dashboard/upEvent";
 import Dashboard from "./components/dashboard/Dashboard";
 import Profile from "./components/user/Profile";
 import Login from "./components/auth/login";
-import Signup from "./components/auth/Signup";
+import Signup from "./components/auth/signup";
 import Repo from "./components/dashboard/repositories";
 import Issues from "./components/dashboard/Issues";
 import CreateRepository from "./components/dashboard/createRepositories";
