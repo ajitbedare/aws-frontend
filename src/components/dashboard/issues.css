@@ -1,0 +1,178 @@
+/* ================= ISSUES PAGE ================= */
+
+.issues-page {
+    min-height: calc(100vh - 80px);
+    background-color: #0d1117;
+    color: #f0f6fc;
+
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+
+/* Main Container */
+
+.issues-container {
+    width: 780px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* ================= HEADER ================= */
+
+.issues-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #30363d;
+
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+}
+
+.issues-header h2 {
+    margin: 0;
+
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.issues-header span {
+    color: #8b949e;
+    font-size: 14px;
+}
+
+
+/* ================= ISSUE CARD ================= */
+
+.issue-card {
+    background-color: #161b22;
+
+    border: 1px solid #30363d;
+    border-radius: 10px;
+
+    padding: 22px 24px;
+
+    margin-bottom: 15px;
+
+    transition:
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* Hover */
+
+.issue-card:hover {
+    border-color: #58a6ff;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ================= TITLE ================= */
+
+.issue-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.issue-title h3 {
+    margin: 0;
+
+    font-size: 19px;
+    font-weight: 600;
+
+    color: #58a6ff;
+
+    cursor: pointer;
+}
+
+.issue-title h3:hover {
+    text-decoration: underline;
+}
+
+
+/* Issue Icon */
+
+.issue-icon {
+    color: #3fb950;
+
+    font-size: 12px;
+}
+
+
+/* ================= DESCRIPTION ================= */
+
+.issue-description {
+    margin: 12px 0 20px;
+
+    color: #8b949e;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* ================= ISSUE INFO ================= */
+
+.issue-info {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #21262d;
+
+    color: #8b949e;
+
+    font-size: 13px;
+}
+
+
+/* Status */
+
+.issue-status {
+    color: #3fb950;
+    font-weight: 500;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 800px) {
+
+    .issues-container {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .issues-page {
+        padding: 25px 12px;
+    }
+
+    .issues-header h2 {
+        font-size: 23px;
+    }
+
+    .issue-card {
+        padding: 18px;
+    }
+
+    .issue-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+}

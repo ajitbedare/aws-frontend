@@ -1,0 +1,94 @@
+.create-repo-container {
+    min-height: calc(100vh - 80px);
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.create-repo-box {
+    width: 650px;
+    padding: 35px 40px;
+    color: #f0f6fc;
+}
+
+.create-repo-box h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.repo-subtitle {
+    color: #8b949e;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.create-repo-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-repo-box label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #f0f6fc;
+}
+
+.create-repo-box label span {
+    color: #8b949e;
+    font-weight: 400;
+}
+
+.create-repo-box input,
+.create-repo-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #f0f6fc;
+    font-size: 15px;
+    padding: 10px 12px;
+    margin-bottom: 22px;
+    outline: none;
+}
+
+.create-repo-box input {
+    height: 42px;
+}
+
+.create-repo-box textarea {
+    height: 100px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.create-repo-box input:focus,
+.create-repo-box textarea:focus {
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 2px rgba(56, 139, 253, 0.3);
+}
+
+.create-repo-box input::placeholder,
+.create-repo-box textarea::placeholder {
+    color: #6e7681;
+}
+
+.create-repo-box button {
+    width: fit-content;
+    padding: 9px 18px;
+    border: 1px solid #2ea043;
+    border-radius: 6px;
+    background-color: #238636;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-repo-box button:hover {
+    background-color: #2ea043;
+}
