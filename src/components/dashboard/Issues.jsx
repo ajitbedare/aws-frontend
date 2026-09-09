@@ -9,7 +9,7 @@ const Issues = () => {
         const fetchIssues = async () => {
             try {
                 const response = await fetch(
-                    "http://16.171.255.182:3002/issue/all"
+                    "https://16.171.255.182:3002/issue/all"
                 );
 
                 const data = await response.json();
