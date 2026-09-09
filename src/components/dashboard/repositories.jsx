@@ -9,7 +9,7 @@ const Repo = () => {
      
     const fetchSuggestedRepositories = async () => {
       try {
-        const response = await fetch(`http://localhost:3002/repo/all`);
+        const response = await fetch(`http://16.171.255.182:3002/repo/all`);
         const data = await response.json();
         setSuggestedRepositories(data);
       } catch (err) {

@@ -15,7 +15,7 @@ const CreateRepository = () => {
         const userId = localStorage.getItem("userId");
 
         const response = await fetch(
-            "http://localhost:3002/repo/create",
+            "http://16.171.255.182:3002/repo/create",
             {
                 method: "POST",
                 headers: {
